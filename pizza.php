@@ -1,4 +1,5 @@
 <?php
+	$pvp = 8;
 	if (empty($_GET['ingr'])) {
 		echo "Has demanat només la pizza bàsica. El preu és $pvp € (IVA inclòs)<br>";
 		exit(0);
